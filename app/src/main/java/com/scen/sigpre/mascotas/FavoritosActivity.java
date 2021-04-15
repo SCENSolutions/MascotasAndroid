@@ -24,9 +24,7 @@ public class FavoritosActivity extends AppCompatActivity {
              mascotas) {
             if(mascotaTurno.getFavorito()==1)
                 mascotaFavoritos.add(mascotaTurno);
-
         }
-
         recyclerView=findViewById(R.id.recyclerViewMascotas);
         LinearLayoutManager linearLayoutManager =new LinearLayoutManager(this);
         linearLayoutManager.setOrientation(LinearLayoutManager.VERTICAL);
