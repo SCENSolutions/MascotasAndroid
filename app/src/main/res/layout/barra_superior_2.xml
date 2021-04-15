@@ -3,7 +3,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/barraSuperior"
+    android:id="@+id/barraSuperior2"
     android:layout_width="match_parent"
     android:layout_height="?attr/actionBarSize"
         android:background="@color/colorPrimary"
@@ -40,19 +40,5 @@
             android:textColor="@color/white"
             android:textSize="40dp" />
 
-        <Button
-            android:id="@+id/button"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:background="@drawable/favorito_icono"
-            android:textColor="#F6F2F2"
-            android:textColorHint="#FAF7F7"
-            android:textColorLink="#F6E8E8"
-            app:backgroundTint="#000000"
-            app:rippleColor="#FDFBFB"
-            android:elevation="20dp"
-            android:onClick="llamarFavoritos"
-            />
     </LinearLayout>
 </androidx.appcompat.widget.Toolbar>

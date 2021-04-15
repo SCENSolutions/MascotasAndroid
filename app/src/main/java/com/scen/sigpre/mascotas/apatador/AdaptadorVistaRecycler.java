@@ -45,8 +45,10 @@ public class AdaptadorVistaRecycler extends RecyclerView.Adapter<AdaptadorVistaR
         Button buttonLike;
         TextView textNombre;
         TextView textLikes;
+        TextView textView2;
         ImageView imageMascota;
         ImageView iconoHuesoLikes;
+
         public MascotasViewHolder(@NonNull View itemView) {
             super(itemView);
             buttonLike=itemView.findViewById(R.id.buttonLike);
@@ -55,6 +57,8 @@ public class AdaptadorVistaRecycler extends RecyclerView.Adapter<AdaptadorVistaR
             textLikes=itemView.findViewById(R.id.textLikes);
             textNombre=itemView.findViewById(R.id.textNombre);
             iconoHuesoLikes=itemView.findViewById(R.id.icono);
+            textView2=itemView.findViewById(R.id.textView2);
+
         }
     }
 }

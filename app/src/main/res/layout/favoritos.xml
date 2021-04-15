@@ -3,11 +3,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
-<include layout ="@layout/barra_superior">
-</include>
+    tools:context=".FavoritosActivity">
+
+    <include
+        layout="@layout/barra_superior_2"
+        tools:visibility="visible"></include>
     <androidx.recyclerview.widget.RecyclerView
-        android:layout_below="@id/barraSuperior"
+        android:layout_below="@id/barraSuperior2"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:id="@+id/recyclerViewMascotas"/>
